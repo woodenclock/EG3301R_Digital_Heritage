@@ -1,0 +1,62 @@
+{
+    "name": "XRInputActions",
+    "maps": [
+        {
+            "name": "Position",
+            "id": "f0d80b83-1e89-456c-8bc7-549a8a22ffd6",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Value",
+                    "id": "e7c5a789-f9f4-479b-9a2e-c202ed7f8bb0",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "0b372230-b055-4e20-9023-4411c1edc3c1",
+                    "path": "<XRHMD>/centerEyePosition",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Rotation",
+            "id": "1150464a-b4ce-4eaa-9786-c3c939a19bc2",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Value",
+                    "id": "542d1121-71da-4263-9c14-c6babc474ab2",
+                    "expectedControlType": "Quaternion",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "a6f6bd6d-b2c3-460c-8336-43a635bbd0e5",
+                    "path": "<XRHMD>/centerEyeRotation",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
